@@ -1,15 +1,15 @@
 import React from 'react'
 
 import classes from './Burger.module.css'
-import BurgerIngredients from './BurgerIngridients/BurgerIngridient';
+import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 
 const burger = (props) => {
     return(
         <div> className = {classes.Burger}
-            <BurgerIngredients type="bread-top" />
-            <BurgerIngredients type="cheese" />
-            <BurgerIngredients type="meat" />
-            <BurgerIngredients type="bread-bottom" />
+            <BurgerIngredient type="bread-top" />
+            <BurgerIngredient type="cheese" />
+            <BurgerIngredient type="meat" />
+            <BurgerIngredient type="bread-bottom" />
         </div>
     );
 }
