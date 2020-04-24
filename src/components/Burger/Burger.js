@@ -1,7 +1,7 @@
 import React from 'react'
 
 import classes from './Burger.module.css'
-import BurgerIngredients from './BurgerIngridients/BurgerIngridients';
+import BurgerIngredients from './BurgerIngridients/BurgerIngridient';
 
 const burger = (props) => {
     return(
@@ -10,7 +10,6 @@ const burger = (props) => {
             <BurgerIngredients type="cheese" />
             <BurgerIngredients type="meat" />
             <BurgerIngredients type="bread-bottom" />
-
         </div>
     );
 }
